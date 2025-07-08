@@ -1,0 +1,156 @@
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bgVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+}
+
+/* Two Column Section */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.column {
+  flex: 1 1 45%;
+}
+
+.column-title {
+  font-weight: 600;
+}
+
+.column-text {
+  color: #555;
+}
+
+/* Image Banner */
+.image-banner {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.image-container {
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.banner-image {
+  width: 100%;
+  max-width: 1170px;
+  border-radius: 30px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Services Section */
+.services-section {
+  background: #75aae0;
+  color: #fff;
+  padding: 80px 20px;
+  margin-bottom: 60px; /* ✅ Creates space before footer */
+}
+
+
+.services-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.services-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.services-subtitle {
+  font-size: 1.2rem;
+  color: #ddd;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Cards */
+.services-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  flex: 1 1 30%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #000;
+}
+
+.card-text {
+  color: #444;
+}
+.service-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  flex: 1 1 30%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,68 @@
+.careers-page {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f8fc;
+  color: #333;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.careers-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.careers-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.careers-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.careers-section {
+  margin-bottom: 40px;
+}
+
+.careers-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #0a2540;
+}
+
+.careers-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.careers-benefits li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.job-category {
+  margin-top: 20px;
+}
+
+.job-category h3 {
+  color: #173d70;
+  margin-bottom: 10px;
+}
+
+.job-category ul {
+  padding-left: 20px;
+}
+
+.job-category li {
+  margin-bottom: 8px;
+}
+
+.careers-cta {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+}
